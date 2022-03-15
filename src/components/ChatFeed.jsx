@@ -22,7 +22,7 @@ const ChatFeed = (props) => {
       const isMyMessage = userName === message.sender.username;
 
       return (
-        <div key={`msg_${style}`} style={{ width: '100%' }}>
+        <div key={`msg_${index}`} style={{ width: '100%' }}>
           <div className="message-block">
             
             {/* if ismymessage then render mymessage, but if not, render theirmessage*/}
