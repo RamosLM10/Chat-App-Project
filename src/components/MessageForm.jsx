@@ -1,8 +1,14 @@
 const MessageForm = () => {
+  
+  const handleSumbit = () => {
+
+  }
   return (
-    <div>
-      MessageForm
-    </div>
+    <form className="message-form" onSubmit={handleSubmit}>
+      <input 
+        className="message-input"
+      />
+    </form>
   )
 }
 
