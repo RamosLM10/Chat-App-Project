@@ -166,17 +166,21 @@
   overflow: hidden;
   border-radius: 6px;
   border: 1px solid #970a2c;
-  background-color: #970a2c;
+  background-color: #d86983;
 }
 
 .message-input {
   height: 40px;
   width: calc(100% - 132px);
-  background-color: #970a2c;
-  border: 1px solid #970a2c;
+  background-color: #d86983;
+  border: 1px solid #d86983;
   padding: 0px 18px;
   outline: none;
   font-size: 15px;
+}
+
+::placeholder {
+  color: white;
 }
 
 .image-button {
